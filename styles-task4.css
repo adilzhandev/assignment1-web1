@@ -1,0 +1,114 @@
+
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #2b2b2b;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.page-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+h2 {
+  color: #2874a6;
+  border-bottom: 2px solid #2874a6;
+  padding-bottom: 6px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  background-color: #1a5276;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eaf2f8;
+}
+
+.highlight-row {
+  background-color: #f9e79f;
+}
+
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.radio-question {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 4px;
+}
+
+.radio-label {
+  display: inline-block;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+.submit-btn {
+  margin-top: 18px;
+  padding: 10px 24px;
+  background-color: #1a5276;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #2874a6;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1a5276;
+  color: white;
+  margin-top: 30px;
+}

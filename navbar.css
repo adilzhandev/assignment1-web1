@@ -1,0 +1,20 @@
+/* ===== Navigation bar ===== */
+
+.navbar {
+  background-color: #2874a6;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.navbar a:hover {
+  color: #f0f4f8;
+  text-decoration: underline;
+}
